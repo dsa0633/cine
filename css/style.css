@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'serifblack';
+  src: url(../font/NotoSerifKR-Black.otf);
+}
+@font-face {
+  font-family: 'serifbold';
+  src: url(../font/NotoSerifKR-Bold.otf);
+}
+@font-face {
+  font-family: 'serifmedium';
+  src: url(../font/NotoSerifKR-Medium.otf);
+}
+@font-face {
+  font-family: 'serifregular';
+  src: url(../font/NotoSerifKR-Regular.otf);
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  }
+ul,li{list-style:none;}
+video,iframe,img{display:block;
+ max-width:100%;}
+a{text-decoration: none; color:inherit;}
+figure{width:fit-content; height:fit-content}
+body{
+  font-size: 0.8rem;
+}
+body h1,h2{
+  font-family: 'serifblack';
+  font-size: 4rem;
+  font-weight: 900;
+}
+body h3{
+  font-family: 'serifbold';
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+body h4,h5{
+  font-family: 'serifmedium';
+}
+main .slide{
+  display: none;
+}
+section .slide{
+  display: none;
+}
+.box{
+  width: 99%;
+}
+
+
+
+header .container .row span{
+  display: none;
+}
+
+header{
+  height: 8vh;
+}
+header .container .row .box{
+  line-height: 8vh;
+}
+/* main */
+main{
+  height: 100vh;
+  background-image: url(../img/main1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+main .container .row{
+  height: fit-content;
+  padding-top: 40vh;
+}
+main .container .row p{
+  padding-top: 10vh;
+}
+/* main */
+/* section */
+section{
+  padding-top: 20vh;
+}
+section .row h3{
+  padding-bottom: 10vh;
+}
+section .row h4{
+  margin-bottom: 5vh;
+}
+section .text{
+  margin-bottom: 5vh;
+}
+/* section */
+/* nav */
+nav{
+  padding-top: 20vh;
+}
+nav h3{
+  font-weight: 900;
+}
+nav .row .box{
+  padding-bottom: 10vh;
+}
+nav span{
+  font-weight: 900;
+}
+/* nav */
+/* aside */
+aside h3{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+aside .allbox{
+  padding: 5vh 0;
+}
+aside .row .box{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* aside */
+/* insta */
+.insta h4{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+/* insta */
+/* map */
+.map h4{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+.map .row figure{
+  padding-bottom: 1vh;
+}
+.map .businfo{
+  overflow: hidden;
+}
+.map .businfo strong{
+  font-size: 1.3rem;
+  font-family: 'serifregular';
+}
+.map .businfo p{
+  padding: 1vh 0;
+}
+.map .subinfo{
+  overflow: hidden;
+}
+.map .subinfo strong{
+  font-size: 1.3rem;
+  font-family: 'serifregular';
+}
+.map .subinfo p{
+  padding: 1vh 0;
+}
+/* map */
+/* footer */
+footer{
+  margin-top: 20vh;
+  width: 100%;
+  height: 40vh;
+  background-color: #000;
+  color: #fff;
+}
+footer .box{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+/* footer */
